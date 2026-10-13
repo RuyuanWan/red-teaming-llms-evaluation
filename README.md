@@ -1,4 +1,5 @@
-# What Counts as Attack Success? Data release
+# What Counts as Attack Success? Evaluating Harmfulness in Red Teaming LLMs 
+# Data release
 
 > **Content warning.** This repository contains harmful requests and model outputs (e.g., attempted instructions for violence, fraud, and misinformation). Released for research on evaluation methodology only.
 
