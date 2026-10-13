@@ -18,7 +18,7 @@ Download `index.html` and open it in any browser (it works offline; all data is 
 | `responses.csv` | response | request and model response |
 | `asr_summary.csv` | attack × model × evaluator | successes, ASR, 95% Wilson interval |
 
-Keys: `attack` ∈ {GCG, Refusal Direction}; `model` ∈ {Llama-2-7B-chat, Llama-3-8B-Instruct}; `behavior_id` is the 0-based index of the AdvBench harmful behavior (520 total).
+Keys: `attack` ∈ {GCG, Refusal Direction}; `model` ∈ {Llama-2-7B-chat, Llama-3-8B-Instruct}; `behavior_id` is the index of the AdvBench harmful behavior (520 total).
 
 ## Notes
 - **Evaluators:** Lexical_Match, LlamaGuard3, HarmBench_Cls, OpenAI_Moderation, and four GPT-4o judges (LLM_Judge_scale_no_def, LLM_Judge_binary_no_def, LLM_Judge_scale_with_def, LLM_Judge_binary_with_def). Settings and prompts are in Appendices C, E, and F of the paper.
