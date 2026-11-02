@@ -4,7 +4,9 @@
 > **Content warning.** This repository contains harmful requests and model outputs (e.g., attempted instructions for violence, fraud, and misinformation). Released for research on evaluation methodology only.
 
 ## Interactive dashboard
-Download `index.html` and open it in any browser (it works offline; all data is embedded). It lets you
+**Live demo: https://ruyuanwan.github.io/red-teaming-llms-evaluation/**
+
+Or download `index.html` and open it in any browser (it works offline; all data is embedded). It lets you
 - compare ASR under each evaluator, with 95% Wilson intervals and agreement with human labels;
 - move the cutoff of the scale judges and see how ASR and agreement change;
 - inspect pairwise agreement (Cohen's κ) between evaluators;
